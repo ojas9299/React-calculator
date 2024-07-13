@@ -4,7 +4,7 @@ import "./btngrp.css";
 export default function Btngrp() {
   const [count, setcount] = useState("");
 
-  let values = ["%", "X", "-", "+", 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, "."];
+  let values = ["%", "*", "-", "+", 1, 2, 3, 4, 5, 6, 7, 8, 9, 0, "."];
 
   let clicked = (event) => {
     let target = event.target.value;

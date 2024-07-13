@@ -1,0 +1,27 @@
+/* clock.css */
+
+.clock-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #282c34;
+  color: white;
+  font-family: "Arial", sans-serif;
+  font-size: 3rem;
+}
+
+.clock-time {
+  margin: 10px;
+  padding: 20px 40px;
+  border-radius: 25px;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.6px);
+  -webkit-backdrop-filter: blur(10.6px);
+}
+.clock-time span {
+  display: inline-block;
+  letter-spacing: 2px;
+}
